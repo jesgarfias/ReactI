@@ -1,0 +1,109 @@
+.headerMain_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #757b57;
+}
+.headerLogo_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_text{
+    font-weight: 600;
+}
+.header_nav{
+    display: flex;
+    gap: 1rem;
+}
+.header_link{
+    text-decoration: none;
+    color: #121212;
+    font-weight: 500;
+}
+/*
+================ Main =======================
+*/
+main{
+    margin: 1rem;
+    padding: 1rem;
+}
+.mainFirst_container{
+    text-align: justify;
+}
+.container_info{
+    display: flex;
+    text-align: justify;
+}
+.container_info p{
+    margin-right: 0.5rem;
+}
+.container_info img{
+    width: 300px;
+}
+.main_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 1rem;
+}
+/*
+====== form===========
+*/
+.form_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-weight: 500;
+    background-color: #90976c;
+}
+.form_userInfo{
+    display: flex;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+
+/*
+    ============= Footer ==============
+*/
+.footerFirst_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #757b57;
+}
+.footer_social{
+    display: flex;
+    gap: 2rem;
+}
+.footer_social svg{
+    width: 50px;
+    cursor: pointer;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+}
+.footer_link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #121212;
+}
+/*
+=================HOVERS==================
+*/
+.header_link:hover{
+    color: #a0a625;
+}
+.footer_link:hover{
+    color: #a0a625;
+}
